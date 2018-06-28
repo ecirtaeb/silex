@@ -31,7 +31,7 @@ return "<h1>{$post['title']}</h1>".
 });
 */
 
-$app->get('/', 'MonProjet\Controller\HomeController::hello');
+$app->get('/', 'MonProjet\Controller\HomeController::hello' );
 
 
 
