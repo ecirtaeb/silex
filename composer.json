@@ -1,0 +1,14 @@
+{
+    "require": {
+        "guzzlehttp/guzzle": "^6.3",
+        "silex/silex": "^2.2",
+        "nesbot/carbon": "^1.31",
+        "twig/twig": "^2.4",
+        "doctrine/dbal": "^2.7"
+    },
+    "autoload": {
+    	"psr-4" : {
+    		"MonProjet\\" : "src/MonProjet"
+    	}
+    }
+}
